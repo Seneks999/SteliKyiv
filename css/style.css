@@ -1,0 +1,205 @@
+/* =========== General styles =========== */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("./fonts/candara.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* =========== Header =========== */
+/* =========== Header first line =========== */
+.contacts {
+  display: block;
+  background-color: #404040;
+  margin: 0 auto;
+}
+
+.header-phone-mail-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-style: normal;
+  max-width: 1200px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.phone-number-header-one {
+  color: #fff;
+  font-size: 14px;
+}
+
+.phone-number-header-two {
+  margin-left: 22px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.mail-header {
+  color: #fff;
+}
+
+.header-svg {
+  fill: #ff6a00;
+  margin-right: 10px;
+}
+
+.header-adress {
+  margin: 0;
+}
+
+.header-adress-line {
+  border: none;
+  height: 2px;
+  background-color: #ff6a00;
+  margin: 0;
+}
+
+/* =========== Header second line =========== */
+.header-logo-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #404040;
+
+  padding: 0 14px;
+  border-radius: 10px;
+}
+
+.header-logo-link {
+  font-family: "Candara", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff6a00;
+}
+
+/* .header-logo-social .header-logo-link {
+  transition: transform 0.3s ease-in-out 0.2s;
+} */
+
+/* .header-logo-social .header-logo-link:hover {
+  transform: scale(1.2);
+} */
+
+.header-logo-social .header-logo-link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-logo-social .header-logo-link:hover {
+  transform: scale(1.2);
+}
+
+.header-logo-kyiv {
+  color: #fff;
+}
+
+.header-social-icon {
+  display: flex;
+  align-items: center;
+  list-style: none; /* Забирає маркери у списку */
+  gap: 20px; /* Відступи між іконками */
+  padding: 0;
+  margin: 0;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  =========== Dropdown menu =========== */
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #ff6a00;
+  padding: 0px 6px;
+  border-radius: 8px;
+  max-height: 38px;
+}
+
+.header-nav-link-text {
+  color: #fff;
+}
+
+.header-nav-uk {
+  font-size: 20px;
+  border: 2px solid #ffd800;
+  padding: 0px 6px;
+  border-radius: 8px;
+
+  max-height: 38px;
+}
+
+.nav-link-uk-text {
+  color: #fff;
+}
+
+.header-nav-en {
+  font-size: 20px;
+  border: 2px solid #0094ff;
+  padding: 0px 6px;
+  border-radius: 8px;
+
+  max-height: 38px;
+}
+
+.nav-link-en-text {
+  color: #fff;
+}
