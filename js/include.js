@@ -24,6 +24,7 @@ function loadHTML(filePath, targetSelector) {
 // Приклад завантаження елементів
 document.addEventListener("DOMContentLoaded", () => {
   loadHTML("./html/header.html", "#header-placeholder");
+  loadHTML("./html/main-article-2.html", "#main-article-2-placeholder");
   loadHTML("./html/footer.html", "#footer-placeholder");
   loadHTML("./html/sidebar.html", "#sidebar-placeholder");
   loadHTML("./html/main-article.html", "#main-article-placeholder");
